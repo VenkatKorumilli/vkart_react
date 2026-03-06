@@ -8,7 +8,6 @@ export const cartSlice = createSlice({
 name:"cartS",
 initialState,
 addToCart:(state,action)=>{
-state.count+1
 }
 })
 
